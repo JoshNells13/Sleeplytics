@@ -16,10 +16,7 @@ Aplikasi ini ringan, modern, dan berjalan langsung di browser menggunakan **loca
 - 🎨 **UI Modern** dengan Tailwind & Glassmorphism
 - 🎬 **Animasi Smooth** menggunakan Framer Motion
 
----
 
-## 🖼 Preview UI
-*(Tambahkan screenshot setelah deploy)*
 
 
 ---
