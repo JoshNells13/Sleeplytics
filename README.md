@@ -4,6 +4,8 @@ Sleeplytics adalah aplikasi web berbasis **React + Tailwind + Recharts** yang me
 
 Aplikasi ini ringan, modern, dan berjalan langsung di browser menggunakan **localStorage** tanpa backend.
 
+https://sleeplytics-lotzz.vercel.app/
+
 ---
 
 ## ✨ Fitur Utama
