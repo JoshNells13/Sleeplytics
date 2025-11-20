@@ -37,7 +37,7 @@ export default function App() {
       <SleepChart data={history} />
       <Tips />
 
-      <p className="flex flex-col items -center text-center mt-6 text-xl font-semibold tracking-wide">
+      <p className="flex flex-col items-center text-center mt-6 text-xl font-semibold tracking-wide">
         <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent drop-shadow-sm">
           Developed with by Joshua Christian L
         </span>
