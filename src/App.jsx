@@ -5,6 +5,7 @@ import SleepChart from "./components/SleepChart";
 import Tips from "./components/Tips";
 import { calculateDuration, getSleepQuality } from "./utils/CalculateSleep";
 import { saveSleepData, getSleepData } from "./utils/Storage";
+import { Github } from "lucide-react";
 
 export default function App() {
   const [result, setResult] = useState(null);
@@ -36,7 +37,16 @@ export default function App() {
       <SleepChart data={history} />
       <Tips />
 
-      <p className="font-bold text-2xl text-center mt-4">Di Kembangkan Oleh Joshua Christian L</p>
+      <p className="flex flex-col items -center text-center mt-6 text-xl font-semibold tracking-wide">
+        <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent drop-shadow-sm">
+          Developed with by Joshua Christian L
+        </span>
+        <a className="mt-3 p-2 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition " href="https://github.com/JoshNells13" target="blank">
+         <Github  color="white" size={32} />
+        </a>
+      </p>
+      
+
     </div>
   );
 }
