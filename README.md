@@ -1,16 +1,37 @@
-# React + Vite
+# 🌙 Sleeplytics – Healthy Sleep Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sleeplytics adalah aplikasi web berbasis **React + Tailwind + Recharts** yang membantu kamu memantau pola tidur harian, mengetahui kualitas tidur berdasarkan standar **CDC (Centers for Disease Control and Prevention)**, serta menampilkan grafik statistik tidur mingguan.
 
-Currently, two official plugins are available:
+Aplikasi ini ringan, modern, dan berjalan langsung di browser menggunakan **localStorage** tanpa backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Fitur Utama
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🕒 **Input Jam Tidur & Jam Bangun**
+- 🔎 **Perhitungan Durasi Tidur Otomatis**
+- 📊 **Grafik Statistik Mingguan** (Recharts)
+- 🧠 **Analisis Kualitas Tidur (CDC Sleep Guidelines)**
+- 💾 **Penyimpanan Data Lokal (localStorage)**
+- 🎨 **UI Modern** dengan Tailwind & Glassmorphism
+- 🎬 **Animasi Smooth** menggunakan Framer Motion
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+---
+
+## 🛠 Tech Stack
+
+| Bagian | Teknologi |
+|-------|-----------|
+| Framework | React (Vite) |
+| Styling | Tailwind CSS |
+| Grafik | Recharts |
+| Animasi | Framer Motion |
+| Storage | LocalStorage |
+| Bahasa | JavaScript (ES6+) |
+
+---
+
+
